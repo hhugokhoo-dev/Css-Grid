@@ -1,0 +1,62 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+<style>
+
+
+.grid-container{
+display: grid;
+grid-template-columns:  repeat(4,1fr);
+grid-template-rows: 80px 80px 80px 80px;
+grid-gap: 15px ;
+
+}
+
+
+.grid-item-even{
+background-color: blueviolet;
+border: solid red 2px;
+text-align: center;
+
+}
+
+.grid-item-odd{
+background-color: chartreuse;
+border: solid red 2px;
+text-align: center;
+
+}
+
+
+</style>
+
+
+
+
+
+
+
+    <body>
+        
+<div class="grid-container">
+        <div class="grid-item-odd">1</div>
+        <div class="grid-item-even">2</div>
+        <div class="grid-item-odd">3</div>
+        <div class="grid-item-even">4</div>
+        <div class="grid-item-odd">5</div>
+        <div class="grid-item-even">6</div>
+        <div class="grid-item-odd">7</div>
+        <div class="grid-item-even">8</div>
+    </div>
+
+
+
+
+
+
+    </body>
+    </html>
